@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox1 {
+    width: 90%;
+    height: 1000px;
+    background-color: rgb(229, 229, 226);
+    margin: auto;
+    border-radius: 7px;
+    position: relative;
+    top: 30px;
+    right: 0px;
+    z-index: 1;
+
+}
+
+.allflag {
+    display: flex;
+    gap: 450px;
+}
+
+.mainbox1 h1 {
+    padding: 40px;
+    margin-left: 34%;
+    color: red;
+    font-size: 45px;
+}
+
+.A {
+    height: 40px;
+    width: 80px;
+    background-color: rgb(100, 99, 99);
+    position: relative;
+    bottom: -630px;
+    left: -35px;
+    border-radius: 3px;
+}
+
+.B {
+    width: 10px;
+    height: 650px;
+    background-color: gray;
+    margin-left: 80px;
+    margin-top: 22px;
+    border-radius: 3px;
+}
+
+.C {
+    width: 500px;
+    height: 300px;
+    background-color: green;
+    position: relative;
+    top: -35px;
+    z-index: -1;
+    border-radius: 7px;
+}
+
+.D {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+
+}
+
+.m2 img {
+    height: 163px;
+    width: 215px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+.line {
+    width: 500px;
+    height: 22px;
+    background-color: rgb(196, 7, 7);
+
+}
+
+.lineP {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.line-A {
+    height: 105px;
+    background-color: rgb(127, 214, 255);
+}
+
+.m22 img {
+    height: 95px;
+    width: 95px;
+    position: absolute;
+    top: 102px;
+    left: 190px;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+.line1 {
+    height: 55px;
+    background-color: rgb(197, 5, 5);
+    position: relative;
+    top: 120px;
+}
+
+.line2 {
+    height: 300px;
+    width: 55px;
+    background-color: rgb(197, 5, 5);
+    position: relative;
+    top: -80px;
+    margin: auto;
+}
+
+
+.name .div1 {
+    font-size: 45px;
+    color: #000000;
+    font-weight: 600;
+    position: absolute;
+    top: 900px;
+    left: 165px;
+}
+.name .div2 {
+    font-size: 45px;
+    color: #000000;
+    font-weight: 600;
+    position: absolute;
+    top: 900px;
+    left: 790px;
+}
+.name .div3 {
+    font-size: 45px;
+    color: #000000;
+    font-weight: 600;
+    position: absolute;
+    top: 900px;
+    right: 160px;
+}
+.R{
+    position: absolute;
+    padding: 13px;
+    bottom: 0px;
+    right: 30px;
+    color: #483b3b;
+}
+
+/* Responsive Design */
+
+
+
